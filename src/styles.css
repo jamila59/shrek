@@ -1,18 +1,10 @@
-#result {
+.hidden {
   display: none;
 }
-
-.container {
-  text-align: center;
-}
-
-.jumbotron {
-  border-radius: 10px;
-  margin-top: 50px;
-}
-
-#conversionResult {
-  font-weight: bold;
-  color: blue;
-  font-style: italic;
+html, body{
+  background-image: url(https://fsmedia.imgix.net/79/fe/e8/24/2647/4c79/89d9/3c75e1ecf00c/shrek-2jpg.jpeg?rect=0%2C0%2C1124%2C562&auto=format%2Ccompress&dpr=2&w=650);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -5,21 +5,57 @@
     <title>Roman Numerals</title>
   </head>
   <body>
-   <div class="container">
-     <div class="jumbotron">
-       <h1>Roman Numeral Converter</h1>
-       <h4>Enter any number from 1 to 1000:</h4>
-       <form id="conversionForm">
-         <div class="form-group">
-           <label for="userInput"></label>
-           <input type="text" id="userInput">
-         </div>
-         <button type="submit" class="btn btn-primary">Submit</button>
-       </form>
-     </div>
-     <div id="result" class="jumbotron">
-       <h2>The Roman value is: <span id="conversionResult"></span>!</h2>
-     </div>
-   </div>
- </body>
+    <div class="container">
+      <div class= 'jumbotron'>
+        <h1>Movie Tickets</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <form id="ageForm">
+              <div class="form-group">
+                <label for="age">Enter your age here:</label>
+                <input type="number" id="age">
+              </div>
+              <br><h5>Please select your movie: </h5>
+              <div class="radio">
+                <input type="radio" name="movies" value="Shrek I" checked>Shrek I<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="movies" value="Shrek II">Shrek II<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="movies" value="Shrek III">Shrek III<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="movies" value="Shrek IV">Shrek IV<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="movies" value="Shrek V">Shrek V<br>
+              </div>
+              <br><h5>Please choose your showing-time: </h5>
+              <div class="radio">
+                <input type="radio" name="times" value="12:00pm" checked>12:00pm<br>
+                <input type="radio" name="times" value="3:00pm"> 3:00pm<br>
+                <input type="radio" name="times" value="6:00pm"> 6:00pm<br>
+              </div>
+              <br>
+            <button type="submit" name="button" class="btn btn-success">Shrek </button>
+            </form>
+            <div class="hidden">
+              <h1>Confirmation</h1>
+              <p>You have selected: <b><span class="hiddenMovie"></span></b></p>
+              <p>Your time is: <b><span class="hiddenTime" ></span></b></p>
+              <p>Your total price: <b>$<span class="hiddenPrice"></span>.00</b></p>
+              <div class="card">
+               <div class="card body">
+                 <img id="gif"></a>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
